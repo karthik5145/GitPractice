@@ -40,3 +40,15 @@ A simple repository to practice basic Git commands like clone, add, commit, and 
     ```
     git pull
     ```
+    9. **List all branches:**
+        ```
+        git branch
+        ```
+    10. **Create a new branch:**
+        ```
+        git branch <branch-name>
+        ```
+    11. **Switch to a branch:**
+        ```
+        git checkout <branch-name>
+        ```
