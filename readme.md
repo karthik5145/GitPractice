@@ -50,5 +50,21 @@ A simple repository to practice basic Git commands like clone, add, commit, and 
         ```
     11. **Switch to a branch:**
         ```
-        git checkout <branch-name>
-        ```
+            git checkout <branch-name>
+            ```
+        12. **Undo the last commit (keep changes staged):**
+            ```
+            git reset --soft HEAD~1
+            ```
+        13. **Undo the last commit (unstage changes, keep changes in working directory):**
+            ```
+            git reset --mixed HEAD~1
+            ```
+        14. **Undo the last commit (discard changes permanently):**
+            ```
+            git reset --hard HEAD~1
+            ```
+        15. **Revert a specific commit (create a new commit that undoes changes):**
+            ```
+            git revert <commit-hash>
+            ```
